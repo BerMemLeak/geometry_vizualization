@@ -4,7 +4,7 @@ project(geometry_lib)
 set(CMAKE_CXX_STANDARD 20)
 
 # Определение исходных файлов
-set(SOURCE_FILES library.cpp FigureClasses/Interface_Class/FigureInterface.h
+set(SOURCE_FILES FigureClasses/Interface_Class/FigureInterface.h
         FigureClasses/Polygons/Triangle_Class/Triangle.h
         FigureClasses/Polygons/RectangularTriangle_Class/RectangularTriangle.h
         FigureClasses/Polygons/IsoscelesTriangle_Class/IsoscelesTriangle.h
